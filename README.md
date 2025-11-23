@@ -1,4 +1,4 @@
-# Network File Shares & Permissions (Active Directory Lab)
+  Network File Shares & Permissions (Active Directory Lab)
 
 This lab focuses on creating network file shares, configuring NTFS and share permissions, and testing real-world access control using Active Directory security groups. The point of the lab is to understand how Windows organizations control who can access which folders on a company network.
 
@@ -60,8 +60,8 @@ If an organization misconfigures this, users could accidentally gain access to c
  Creating an ACCOUNTANTS Security Group
 
  Screenshots to include:
-- ACCOUNTANTS security group in ADUC  
-- Accounting folder permissions showing ACCOUNTANTS (Read/Write)
+<img width="757" height="529" alt="image" src="https://github.com/user-attachments/assets/3d4baabd-67c0-46ed-8c40-6e0f4a9192cf" />
+<img width="632" height="451" alt="image" src="https://github.com/user-attachments/assets/4bbfc30f-417e-4fdd-a2f7-8fe47c059744" />
 
  What I did: 
 I created a security group called ACCOUNTANTS in ADUC.  
@@ -81,8 +81,8 @@ Adding a new employee to a department should automatically give them the correct
  Assigning a User to ACCOUNTANTS & Retesting
 
 Screenshots to include:
-- User properties showing group membership  
-- Successful access to the accounting share after membership is applied
+<img width="404" height="461" alt="image" src="https://github.com/user-attachments/assets/8eb58a3a-7e05-4a6b-9e0f-d7b144c4f1fd" />
+<img width="1131" height="638" alt="image" src="https://github.com/user-attachments/assets/92019cb9-dfa6-43cb-8601-c42cc1a856a9" />
 
 What I did:  
 Attempted access as a non-accountant → access denied.  
