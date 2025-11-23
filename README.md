@@ -18,8 +18,6 @@ Screenshots to include:
 <img width="846" height="624" alt="image" src="https://github.com/user-attachments/assets/a9195e4a-610c-4b1d-8a14-4fa321a10496" />
 
 
-
-
  What I did:  
 On DC-1, I created four folders and assigned different permission levels:
 - read-access → Domain Users (Read)
@@ -36,13 +34,14 @@ Being able to configure permissions correctly ensures employees only access what
 - Applying NTFS and share permissions  
 - Understanding how group-based access control works  
 
----
 
  Testing Access from a Normal User (Client-1)
 
- Screenshots to include:**
-- `\\DC-1` file share window on Client-1  
-- Attempts to open each folder (success/failure messages)
+ Screenshots to include:
+<img width="1136" height="639" alt="image" src="https://github.com/user-attachments/assets/171f5d6c-03df-4b2f-b202-06c8af38cdfe" />
+  <img width="1128" height="635" alt="image" src="https://github.com/user-attachments/assets/1af22903-9e38-4739-aefb-856e730f7755" />
+  <img width="1122" height="645" alt="image" src="https://github.com/user-attachments/assets/f93ad86f-fbc6-4d21-9951-b4a1b33456db" />
+  <img width="1129" height="638" alt="image" src="https://github.com/user-attachments/assets/3f4e01f0-30a1-404b-a6d1-2dd37324d028" />
 
  What I did:  
 Logged into Client-1 as a normal domain user and accessed `\\DC-1`.  
@@ -55,19 +54,18 @@ If an organization misconfigures this, users could accidentally gain access to c
  Skills demonstrated
 - Testing share permissions from a client device  
 - Verifying access behavior matches the intended security design  
-- Troubleshooting permission errors  
-
----
+- Troubleshooting permission errors
+  
 
  Creating an ACCOUNTANTS Security Group
 
-**Screenshots to include:**
+ Screenshots to include:
 - ACCOUNTANTS security group in ADUC  
 - Accounting folder permissions showing ACCOUNTANTS (Read/Write)
 
  What I did: 
-I created a security group called **ACCOUNTANTS** in ADUC.  
-Then I gave this group Read/Write permission to the **accounting** network share.
+I created a security group called ACCOUNTANTS in ADUC.  
+Then I gave this group Read/Write permission to the accounting network share.
 
  Why this matters
 Businesses assign permissions to groups—not individual users.  
