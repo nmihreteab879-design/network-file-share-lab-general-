@@ -1,9 +1,31 @@
-  Network File Shares & Permissions (Active Directory Lab)
+<p align="center">
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="Network File Shares Logo"/>
+</p>
 
-This lab focuses on creating network file shares, configuring NTFS and share permissions, and testing real-world access control using Active Directory security groups. The point of the lab is to understand how Windows organizations control who can access which folders on a company network.
+# Network File Shares Lab
 
+This project demonstrates how to create, secure, and manage network file shares within an Active Directory environment. Rather than documenting every individual click, this write-up focuses on the key configurations that show how access, permissions, and user roles are controlled in a real IT support setting. Each section highlights why the configuration matters and the specific skill it reflects.
 
- Creating Shared Folders on DC-1
+## Environments and Technologies Used
+- Microsoft Azure (Virtual Machines)
+- Active Directory Domain Services (AD DS)
+- File Explorer & NTFS Permissions
+- SMB Network File Sharing
+
+## Operating Systems Used
+- Windows Server (2019+)
+- Windows 10 (21H2)
+
+## Objectives
+- Create organizational file shares  
+- Apply NTFS and Share permissions correctly  
+- Assign access based on security groups  
+- Test user permissions and access restrictions  
+- Troubleshoot unauthorized access scenarios  
+- Demonstrate practical Windows file server management  
+
+# Core Configuration Overview
+
 
 <img width="682" height="620" alt="image" src="https://github.com/user-attachments/assets/c3f2f261-7200-4f7a-8250-88cf6107c040" />
 - The sharing/permissions windows for each folder
