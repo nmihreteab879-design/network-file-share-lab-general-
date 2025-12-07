@@ -113,7 +113,7 @@ Adding a new employee to a department should automatically give them the correct
  
 What I did:  
 
-Added the user to the ACCOUNTANTS group → access granted.
+Added the user to the ACCOUNTANTS group → access granted to the accounting folder.
 
 <img width="404" height="461" alt="image" src="https://github.com/user-attachments/assets/8eb58a3a-7e05-4a6b-9e0f-d7b144c4f1fd" />
 
