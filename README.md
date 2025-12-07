@@ -45,6 +45,9 @@ On DC-1, I created four folders and assigned different permission levels:
 
 <img width="947" height="654" alt="image" src="https://github.com/user-attachments/assets/4310b265-b6c0-44a1-87d5-d34f098a4a51" />
 
+
+<img width="846" height="624" alt="image" src="https://github.com/user-attachments/assets/a9195e4a-610c-4b1d-8a14-4fa321a10496" />
+
  Why this matters:
  
 Shared folders are core to how companies store and protect data.  
@@ -91,7 +94,6 @@ Then I gave this group Read/Write permission to the accounting network share.
 
 <img width="757" height="529" alt="image" src="https://github.com/user-attachments/assets/3d4baabd-67c0-46ed-8c40-6e0f4a9192cf" />
 <img width="632" height="451" alt="image" src="https://github.com/user-attachments/assets/4bbfc30f-417e-4fdd-a2f7-8fe47c059744" />
-<img width="846" height="624" alt="image" src="https://github.com/user-attachments/assets/a9195e4a-610c-4b1d-8a14-4fa321a10496" />
 
 
  Why this matters:
@@ -111,11 +113,12 @@ Adding a new employee to a department should automatically give them the correct
  
 What I did:  
 
-Attempted access as a non-accountant → access denied.  
 Added the user to the ACCOUNTANTS group → access granted.
 
 <img width="404" height="461" alt="image" src="https://github.com/user-attachments/assets/8eb58a3a-7e05-4a6b-9e0f-d7b144c4f1fd" />
+
 <img width="1131" height="638" alt="image" src="https://github.com/user-attachments/assets/92019cb9-dfa6-43cb-8601-c42cc1a856a9" />
+
 
  Why this matters:
  
