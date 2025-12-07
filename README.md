@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img width="241" height="217" alt="image" src="https://github.com/user-attachments/assets/f8ef654c-2f0e-4fab-9086-6fa791e13822" />
 </p>
 
 # Network File Shares Lab
