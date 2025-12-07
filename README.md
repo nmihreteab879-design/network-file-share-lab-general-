@@ -4,7 +4,6 @@
 
 # Network File Shares Lab
 
-This project demonstrates how to create, secure, and manage network file shares within an Active Directory environment. Rather than documenting every individual click, this write-up focuses on the key configurations that show how access, permissions, and user roles are controlled in a real IT support setting. Each section highlights why the configuration matters and the specific skill it reflects.
 
 ## Environments and Technologies Used
 - Microsoft Azure (Virtual Machines)
