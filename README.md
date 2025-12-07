@@ -5,7 +5,6 @@ This lab focuses on creating network file shares, configuring NTFS and share per
 
  Creating Shared Folders on DC-1
 
-Screenshots to include:
 <img width="682" height="620" alt="image" src="https://github.com/user-attachments/assets/c3f2f261-7200-4f7a-8250-88cf6107c040" />
 - The sharing/permissions windows for each folder
 - <img width="596" height="414" alt="image" src="https://github.com/user-
@@ -37,7 +36,6 @@ Being able to configure permissions correctly ensures employees only access what
 
  Testing Access from a Normal User (Client-1)
 
- Screenshots to include:
 <img width="1136" height="639" alt="image" src="https://github.com/user-attachments/assets/171f5d6c-03df-4b2f-b202-06c8af38cdfe" />
   <img width="1128" height="635" alt="image" src="https://github.com/user-attachments/assets/1af22903-9e38-4739-aefb-856e730f7755" />
   <img width="1122" height="645" alt="image" src="https://github.com/user-attachments/assets/f93ad86f-fbc6-4d21-9951-b4a1b33456db" />
@@ -59,7 +57,6 @@ If an organization misconfigures this, users could accidentally gain access to c
 
  Creating an ACCOUNTANTS Security Group
 
- Screenshots to include:
 <img width="757" height="529" alt="image" src="https://github.com/user-attachments/assets/3d4baabd-67c0-46ed-8c40-6e0f4a9192cf" />
 <img width="632" height="451" alt="image" src="https://github.com/user-attachments/assets/4bbfc30f-417e-4fdd-a2f7-8fe47c059744" />
 
@@ -80,7 +77,6 @@ Adding a new employee to a department should automatically give them the correct
 
  Assigning a User to ACCOUNTANTS & Retesting
 
-Screenshots to include:
 <img width="404" height="461" alt="image" src="https://github.com/user-attachments/assets/8eb58a3a-7e05-4a6b-9e0f-d7b144c4f1fd" />
 <img width="1131" height="638" alt="image" src="https://github.com/user-attachments/assets/92019cb9-dfa6-43cb-8601-c42cc1a856a9" />
 
