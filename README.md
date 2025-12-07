@@ -50,8 +50,7 @@ On DC-1, I created four folders and assigned different permission levels:
 
  Why this matters:
  
-Shared folders are core to how companies store and protect data.  
-Being able to configure permissions correctly ensures employees only access what they’re authorized to see, preventing data exposure or accidental modification.
+Shared folders are core to how companies store and protect data. Being able to configure permissions correctly ensures employees only access what they’re authorized to see, preventing data exposure or accidental modification.
 
  Skills demonstrated:
  
@@ -64,8 +63,7 @@ Being able to configure permissions correctly ensures employees only access what
 
  What I did:  
  
-Logged into Client-1 as a normal domain user and accessed `\\DC-1`.  
-I tested which folders I could open and which I could create files in.
+Logged into Client-1 as a normal domain user and accessed \\DC-1. I tested which folders I could open and which I could create files in.
 
 <img width="1136" height="639" alt="image" src="https://github.com/user-attachments/assets/171f5d6c-03df-4b2f-b202-06c8af38cdfe" />
   <img width="1128" height="635" alt="image" src="https://github.com/user-attachments/assets/1af22903-9e38-4739-aefb-856e730f7755" />
@@ -75,8 +73,7 @@ I tested which folders I could open and which I could create files in.
 
  Why this matters:
  
-Testing access as a normal user confirms whether your permissions are set correctly.  
-If an organization misconfigures this, users could accidentally gain access to confidential files.
+Testing access as a normal user confirms whether your permissions are set correctly. If an organization misconfigures this, users could accidentally gain access to confidential files.
 
  Skills demonstrated:
  
@@ -85,12 +82,11 @@ If an organization misconfigures this, users could accidentally gain access to c
 - Troubleshooting permission errors
   
 
- ## Creating an ACCOUNTANTS Security Group
+ ## Creating an Accountants Security Group
 
   What I did: 
   
-I created a security group called ACCOUNTANTS in ADUC.  
-Then I gave this group Read/Write permission to the accounting network share.
+I created a security group called Accountants in Active directory users and computers. Then I gave this group Read/Write permission to the accounting network share.
 
 <img width="757" height="529" alt="image" src="https://github.com/user-attachments/assets/3d4baabd-67c0-46ed-8c40-6e0f4a9192cf" />
 <img width="632" height="451" alt="image" src="https://github.com/user-attachments/assets/4bbfc30f-417e-4fdd-a2f7-8fe47c059744" />
@@ -98,9 +94,7 @@ Then I gave this group Read/Write permission to the accounting network share.
 
  Why this matters:
  
-Businesses assign permissions to groups—not individual users.  
-This keeps environments manageable and scalable.  
-Adding a new employee to a department should automatically give them the correct access.
+Businesses assign permissions to groups—not individual users. This keeps environments manageable and scalable. Adding a new employee to a department should automatically give them the correct access.
 
  Skills demonstrated:
  
@@ -109,7 +103,7 @@ Adding a new employee to a department should automatically give them the correct
 - Designing role-based access
   
 
-## Assigning a User to ACCOUNTANTS & Retesting
+## Assigning a user to accountants and testing
  
 What I did:  
 
@@ -122,8 +116,7 @@ Added the user to the ACCOUNTANTS group → access granted to the accounting fol
 
  Why this matters:
  
-This demonstrates how access is instantly changed by group membership—no reconfiguring folders.  
-This is exactly how real companies automate access control at scale.
+This demonstrates how access is instantly changed by group membership—no reconfiguring folders. This is exactly how real companies automate access control at scale.
 
  Skills demonstrated:
  
